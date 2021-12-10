@@ -204,7 +204,7 @@ d3.csv("assets/data/data.csv").then(function(stateData,err) {
     .attr("value","poverty")
     .attr("class", "aText")
     .classed("active",true)
-    .text("in poverty (%)");
+    .text("In poverty (%)");
 
     var ageLabel = xlabelsGroup.append("text")
     .attr("x",0)
@@ -212,7 +212,7 @@ d3.csv("assets/data/data.csv").then(function(stateData,err) {
     .attr("value","age")
     .attr("class", "aText")
     .classed("inactive",true)
-    .text("age (median)");
+    .text("Age (median)");
 
     var incomeLabel = xlabelsGroup.append("text")
     .attr("x",0)
@@ -220,7 +220,7 @@ d3.csv("assets/data/data.csv").then(function(stateData,err) {
     .attr("value","income")
     .attr("class", "aText")
     .classed("inactive",true)
-    .text("household income (median)");
+    .text("Household income (median)");
 
 
     var ylabelsGroup = chartGroup.append("g")
